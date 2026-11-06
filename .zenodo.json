@@ -1,0 +1,43 @@
+{
+  "upload_type": "dataset",
+  "title": "Northern lights odds by place, month and length of stay (Fairbanks, Abisko, Reykjavík, Keflavík)",
+  "description": "For each place, month (September to April; Abisko September to March), aurora level and stay of 1 to 14 consecutive nights, the share of real runs of nights in the historical record that included at least one clear evening hour while the aurora was active at that level. Levels are Kp 1 or more (faint), Kp 2 or more (a proper display) and Kp 3 or more (a strong show), each during a clear hour in the evening window. Next to each figure is the chance the usual independent-nights formula gives, so the gap caused by runs of cloudy nights can be seen directly. Weather comes from hourly airport reports at Fairbanks (PAFA), Reykjavík (BIRK) and Keflavík (BIKF) via the Iowa Environmental Mesonet, and SMHI station 188790 at Abisko; geomagnetic activity is the GFZ Kp index. Records cover 26–27 seasons at Fairbanks (from 2000), 14–15 at Reykjavík and Keflavík (from 2012) and 7 at Abisko (from 2019). 1,302 rows. This is not a forecast.<br><br>Dataset page: https://northernlightsplanner.com/data/ · Method: https://northernlightsplanner.com/methodology/",
+  "creators": [
+    {
+      "name": "R, Deepak",
+      "affiliation": "Northern Lights Planner"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "version": "1.0.0",
+  "keywords": [
+    "aurora",
+    "northern lights",
+    "aurora borealis",
+    "Kp index",
+    "geomagnetic activity",
+    "cloud cover",
+    "Fairbanks",
+    "Iceland",
+    "Reykjavík",
+    "Abisko",
+    "travel planning"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://northernlightsplanner.com/methodology/",
+      "scheme": "url"
+    },
+    {
+      "relation": "isDocumentedBy",
+      "identifier": "https://northernlightsplanner.com/data/",
+      "scheme": "url"
+    },
+    {
+      "relation": "isDerivedFrom",
+      "identifier": "10.5880/Kp.0001",
+      "scheme": "doi"
+    }
+  ]
+}
