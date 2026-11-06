@@ -1,0 +1,12 @@
+Northern lights odds by place, month and length of stay
+Copyright (c) 2026 Deepak R, Northern Lights Planner (northernlightsplanner.com)
+
+This dataset is licensed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0).
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Credit: "Northern Lights Planner (northernlightsplanner.com), Deepak R".
+
+Upstream sources, credited as their licences require:
+- Kp index: GFZ German Research Centre for Geosciences, CC BY 4.0. Matzka, J., Stolle, C., Yamazaki, Y., Bronkalla, O. and Morschhauser, A. (2021), doi:10.1029/2020SW002641; data doi:10.5880/Kp.0001.
+- Abisko cloud cover: SMHI open data (station 188790), CC BY 4.0, processed.
+- Airport weather reports (PAFA, BIRK, BIKF): Iowa Environmental Mesonet, Iowa State University. Public domain; attribution appreciated.

@@ -1,0 +1,102 @@
+{
+ "name": "aurora-odds",
+ "title": "Northern lights odds by place, month and length of stay",
+ "version": "1.0.0",
+ "licenses": [
+  {
+   "name": "CC-BY-4.0",
+   "path": "https://creativecommons.org/licenses/by/4.0/",
+   "title": "Creative Commons Attribution 4.0"
+  }
+ ],
+ "homepage": "https://northernlightsplanner.com/methodology/",
+ "resources": [
+  {
+   "name": "aurora-odds",
+   "path": "aurora-odds.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "schema": {
+    "fields": [
+     {
+      "name": "place",
+      "type": "string",
+      "constraints": {
+       "enum": [
+        "Fairbanks",
+        "Abisko",
+        "Reykjavík",
+        "Keflavík"
+       ]
+      }
+     },
+     {
+      "name": "country",
+      "type": "string"
+     },
+     {
+      "name": "month",
+      "type": "string",
+      "constraints": {
+       "enum": [
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr"
+       ]
+      }
+     },
+     {
+      "name": "level",
+      "type": "integer",
+      "description": "1, 2, 3 = Kp 1+, 2+, 3+ in a clear evening hour",
+      "constraints": {
+       "minimum": 1,
+       "maximum": 3
+      }
+     },
+     {
+      "name": "nights",
+      "type": "integer",
+      "constraints": {
+       "minimum": 1,
+       "maximum": 14
+      }
+     },
+     {
+      "name": "chance_real_runs",
+      "type": "number",
+      "description": "Share of real runs of consecutive nights with at least one qualifying hour",
+      "constraints": {
+       "minimum": 0,
+       "maximum": 1
+      }
+     },
+     {
+      "name": "chance_simple_formula",
+      "type": "number",
+      "description": "Chance if nights were independent",
+      "constraints": {
+       "minimum": 0,
+       "maximum": 1
+      }
+     },
+     {
+      "name": "seasons",
+      "type": "integer"
+     },
+     {
+      "name": "years",
+      "type": "string",
+      "description": "Span of seasons counted, e.g. 2000-2026 = seasons 2000-01 to 2025-26"
+     }
+    ]
+   }
+  }
+ ]
+}
