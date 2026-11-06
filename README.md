@@ -1,9 +1,13 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24003655.svg)](https://doi.org/10.5281/zenodo.24003655)
+
 # Northern lights odds by place, month and length of stay (Fairbanks, Abisko, Reykjavík, Keflavík)
 
 For each place, month (September to April; Abisko September to March), aurora level and stay of 1 to 14 consecutive nights, the share of real runs of nights in the historical record that included at least one clear evening hour while the aurora was active at that level. Levels are Kp 1 or more (faint), Kp 2 or more (a proper display) and Kp 3 or more (a strong show), each during a clear hour in the evening window. Next to each figure is the chance the usual independent-nights formula gives, so the gap caused by runs of cloudy nights can be seen directly. Weather comes from hourly airport reports at Fairbanks (PAFA), Reykjavík (BIRK) and Keflavík (BIKF) via the Iowa Environmental Mesonet, and SMHI station 188790 at Abisko; geomagnetic activity is the GFZ Kp index. Records cover 26–27 seasons at Fairbanks (from 2000), 14–15 at Reykjavík and Keflavík (from 2012) and 7 at Abisko (from 2019). 1,302 rows. This is not a forecast.
 
 - Method: https://northernlightsplanner.com/methodology/
 - Dataset page: https://northernlightsplanner.com/data/
+- DOI: https://doi.org/10.5281/zenodo.24003655 (Zenodo)
+- Kaggle: https://www.kaggle.com/datasets/deepakacez/northern-lights-odds-by-place-month-and-nights
 - Calculator: https://northernlightsplanner.com/northern-lights-odds-calculator/
 
 ## Files
@@ -44,6 +48,6 @@ aurora, northern lights, aurora borealis, Kp index, geomagnetic activity, cloud 
 
 ## Citation
 
-R, Deepak (2026). *Northern lights odds by place, month and length of stay* (v1.0.0) [Data set]. Northern Lights Planner. DOI: pending (Zenodo).
+R, Deepak (2026). *Northern lights odds by place, month and length of stay* (v1.0.0) [Data set]. Northern Lights Planner. https://doi.org/10.5281/zenodo.24003655
 
 Update frequency: once a season.

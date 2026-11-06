@@ -7,6 +7,7 @@ authors:
     given-names: "Deepak"
     affiliation: "Northern Lights Planner"
 version: 1.0.0
+doi: "10.5281/zenodo.24003655"
 date-released: 2026-10-06
 license: CC-BY-4.0
 url: "https://northernlightsplanner.com/data/"
